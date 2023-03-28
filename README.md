@@ -111,13 +111,13 @@ Step 8: Type "keyframe" for the name and enter virtual machine 1's Private IP ad
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_3b921b2deeb347ec92fb39bc398d9212~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
+<img src="https://static.wixstatic.com/media/2ebf04_3b921b2deeb347ec92fb39bc398d9212~mv2.png" height="60%" width="60%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_f953aa8dbcd2436695921fb5f6ea142d~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
+<img src="https://static.wixstatic.com/media/2ebf04_f953aa8dbcd2436695921fb5f6ea142d~mv2.png" height="60%" width="60%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_42c39a8729e74747a06b649ece83a9c3~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
+<img src="https://static.wixstatic.com/media/2ebf04_42c39a8729e74747a06b649ece83a9c3~mv2.png" height="60%" width="60%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
 Step 9: Try pinging "keyframe" from Command Prompt in VM2. The request will be resolved for the IP address assigned to "keyframe" during the creation of the A-Record. The following commands can also display the DNS:
@@ -130,10 +130,10 @@ Step 9: Try pinging "keyframe" from Command Prompt in VM2. The request will be r
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_b1d26e273e3d44bfbc5e787f2b032641~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
+<img src="https://static.wixstatic.com/media/2ebf04_b1d26e273e3d44bfbc5e787f2b032641~mv2.png" height="30%" width="30%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_af22ce2560734c94a64ddd9cd00f4cae~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
+<img src="https://static.wixstatic.com/media/2ebf04_af22ce2560734c94a64ddd9cd00f4cae~mv2.png" height="60%" width="60%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
 Step 10: Return to the Domain Controller and modify the IP address of keyframe to 8.8.8.8. Then, flush the DNS cache with the command "ipconfig /flushdns" and observe any changes in VM2.
@@ -142,7 +142,7 @@ Step 10: Return to the Domain Controller and modify the IP address of keyframe t
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_7c68bd03f57949548190af92093369e0~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
+<img src="https://static.wixstatic.com/media/2ebf04_7c68bd03f57949548190af92093369e0~mv2.png" height="60%" width="60%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
 Step 11: Attempt to ping a name, such as "Kermit," and observe how the request cannot be resolved.
@@ -151,7 +151,7 @@ Step 11: Attempt to ping a name, such as "Kermit," and observe how the request c
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_2b88b24648b24cec99f19efbd811c3d4~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
+<img src="https://static.wixstatic.com/media/2ebf04_2b88b24648b24cec99f19efbd811c3d4~mv2.png" height="60%" width="60%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
 Step 12: To create a CNAME record for "Kermit," return to the Domain Controller, right-click and select "New Alias (CNAME)."
@@ -160,7 +160,7 @@ Step 12: To create a CNAME record for "Kermit," return to the Domain Controller,
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_d61935406a854cedaa6cf4260f63c00f~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
+<img src="https://static.wixstatic.com/media/2ebf04_d61935406a854cedaa6cf4260f63c00f~mv2.png" height="30%" width="30%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
 Step 13: Enter a name of your choice such as Kermit for the Alias name, and www.google.com for the Fully Qualified Domain Name (FQDN) for target host and click "OK" to create a CNAME record.
@@ -169,7 +169,7 @@ Step 13: Enter a name of your choice such as Kermit for the Alias name, and www.
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_67b20cae657b403aa5800f7ec2a4804c~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
+<img src="https://static.wixstatic.com/media/2ebf04_67b20cae657b403aa5800f7ec2a4804c~mv2.png" height="60%" width="60%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
 Step 14 - Go to Virtual Machine 2 and try to ping Kermit again. The request should resolve for www.google.com, demonstrating how names or aliases such as Kermit can be mapped to a true domain name.

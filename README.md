@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
+<img src="https://static.wixstatic.com/media/2ebf04_1818665ae7b9434fb75cd50b585db87a~mv2.png" alt="DNS Management"/>
 </p>
 
 <h1>DNS Management of A-Records, CNMAE Records and Local DNS Cache</h1>

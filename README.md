@@ -32,7 +32,7 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 - Flush DNS cache: Use the "ipconfig /flushdns" command to clear the contents of the local DNS cache. This cache stores information about recently resolved DNS queries, including the IP addresses of websites that have been visited.
 
 <h2>Actions and Observations</h2>
-<p align="left"> Prerequisite Lab Prior To This Lab: <a href="https://github.com/stevenmnocent/configure-ad"
+<p align="left">Previous Tutorial In Sequence: <a href="https://github.com/stevenmnocent/configure-ad"
 >Configuring On-Premises Active Directory within Azure VMs</a></p>
 </p>
 <br />

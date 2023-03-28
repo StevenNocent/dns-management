@@ -176,4 +176,4 @@ Step 14 - Go to Virtual Machine 2 and try to ping Kermit again. The request shou
 </p>
 <br />
 
-<p align="center"><b><i>🙌💥People may hear your words, but they feel your attitude. ~ John C. Maxwell🙌💥</b></i></p>
+<p align="center">🚶🏾 <b><i>The journey with a 1000 miles begins with one step. ~ Confucius</b></i> 🗻</p>

@@ -42,7 +42,7 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 <img src="https://static.wixstatic.com/media/2ebf04_f70557f3029046b2969a62226a5cbe59~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
-1. Remote desktop connection into virtual machine 2 running Windows 10 Pro, Version 21H2 from the Active Directory Lab.
+Step 1: Connect to Virtual Machine 2 running Windows 10 Pro, Version 21H2 from the Active Directory Lab using Remote Desktop Connection.
 </p>
 <br />
 
@@ -51,7 +51,7 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 <img src="https://static.wixstatic.com/media/2ebf04_63ae497882d944d49830faae2f03aad9~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
-2. Login as the admin user created from the Active Directory Lab.
+Step 2: Log in using the admin user created from the Active Directory Lab.
 </p>
 <br />
 
@@ -60,7 +60,7 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 <img src="https://static.wixstatic.com/media/2ebf04_45d443faac9d44ff9de169517ba8eec5~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
-3. Minimize VM2 and go back to the Azure Portal to get the IP address of virtual machine 1 running Windows Server 2022 and remote desktop connection into it.
+Step 3: Minimize VM2 and return to the Azure Portal to retrieve the IP address of virtual machine 1, which is running Windows Server 2022. Remote desktop connection into it as well.
 </p>
 <br />
 
@@ -69,7 +69,7 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 <img src="https://static.wixstatic.com/media/2ebf04_cf57d7591a484ae8be626d22470129ee~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
-4. Go back to virtual machine 2 and launch command prompt and attempt to ping keyframe.
+Step 4: Return to virtual machine 2, launch the command prompt, and try to ping "keyframe".
 </p>
 <br />
 
@@ -78,7 +78,7 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 <img src="https://static.wixstatic.com/media/2ebf04_83c34d98baf94f77b4ec66f0742897ed~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
-5. The ping request will fail because we don not have an A-Record for keyframe. Go back to the Domain Controller (VM1) → Server Manager → Tools → DNS.
+Step 5: Since we don't have an A-Record for keyframe, the ping request will fail. To fix this, go back to the Domain Controller (VM1) and open Server Manager, then navigate to Tools and select DNS.
 </p>
 <br />
 
@@ -87,7 +87,7 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 <img src="https://static.wixstatic.com/media/2ebf04_886a366090a54b2eb94c6a7f9c72c6cb~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
-6. Click the Domain Controller from the DNS Manager → Forward lookup zones → Select the domain name chosen for root.
+Step 6: In the DNS Manager, select the Domain Controller from the Forward lookup zones and choose the domain name selected for the root.
 </p>
 <br />
 
@@ -96,7 +96,7 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 <img src="https://static.wixstatic.com/media/2ebf04_cf1eb3a1ffeb42c5a2f8010da171cd98~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
-7. This is essentially where are A-Records are. Right-Click, the click New Host (A or AAAA) to create a new A-Record.
+Step 7: This is where the A-Records are stored. Right-click and select "New Host (A or AAAA)" to create a new A-Record.
 </p>
 <br />
 
@@ -105,7 +105,7 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 <img src="https://static.wixstatic.com/media/2ebf04_fa7dd77e27a943fdb5eb91446d132de1~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
-8. For the name type “keyframe” and type in virtual machine 1’s Private IP address as the IP address for keyframe and click Add Host.
+Step 8: Type "keyframe" for the name and enter virtual machine 1's Private IP address as the IP address for keyframe. Click "Add Host" to create a new A-Record.
 </p>
 <br />
 
@@ -120,9 +120,11 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 <img src="https://static.wixstatic.com/media/2ebf04_42c39a8729e74747a06b649ece83a9c3~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
-9. Attempt to ping keyframe for VM2 from Command Prompt. Request will resolve for the IP address we assign to keyframe when creating an A-Record. The following commands will also display the DNS:
-- nslookup keyframe
-- ipconfig /displaydns
+Step 9: Try pinging "keyframe" from Command Prompt in VM2. The request will be resolved for the IP address assigned to "keyframe" during the creation of the A-Record. The following commands can also display the DNS:
+<ul>
+  <li>nslookup keyframe</li>
+  <li>ipconfig /displaydns</li>
+ </ul>
 </p>
 <br />
 
@@ -134,7 +136,7 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 <img src="https://static.wixstatic.com/media/2ebf04_af22ce2560734c94a64ddd9cd00f4cae~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
-10. Go back to the Domain Controller and edit keyframe’s IP to 8.8.8.8 and observe changes in VM2 after flushing the DNS cache with the ipconfig /flush DNS command.
+Step 10: Return to the Domain Controller and modify the IP address of keyframe to 8.8.8.8. Then, flush the DNS cache with the command "ipconfig /flushdns" and observe any changes in VM2.
 </p>
 <br />
 
@@ -143,7 +145,7 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 <img src="https://static.wixstatic.com/media/2ebf04_7c68bd03f57949548190af92093369e0~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
-11. Ping any name such as Kermit and observe how the request could not be resolved.
+Step 11: Attempt to ping a name, such as "Kermit," and observe how the request cannot be resolved.
 </p>
 <br />
 
@@ -152,7 +154,7 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 <img src="https://static.wixstatic.com/media/2ebf04_2b88b24648b24cec99f19efbd811c3d4~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
-12. Create a CNAME record for Kermit by going back to the domain controller, Right-Clicking → New Alias (CNAME).
+Step 12: To create a CNAME record for "Kermit," return to the Domain Controller, right-click and select "New Alias (CNAME)."
 </p>
 <br />
 
@@ -161,7 +163,7 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 <img src="https://static.wixstatic.com/media/2ebf04_d61935406a854cedaa6cf4260f63c00f~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
-13. Type in Kermit or any name of your choice for Alias name and www.Google.com for the Fully qualified domain name (FQDN) for target host and click ok.
+Step 13: Enter a name of your choice such as Kermit for the Alias name, and www.google.com for the Fully Qualified Domain Name (FQDN) for target host and click "OK" to create a CNAME record.
 </p>
 <br />
 
@@ -170,7 +172,7 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 <img src="https://static.wixstatic.com/media/2ebf04_67b20cae657b403aa5800f7ec2a4804c~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
-14. Go to virtual machine 2 and attempt to ping Kermit once again. The request should resolve for www.Google.com. This demonstrates how we can map names or aliases such as Kermit to a true domain name.
+Step 14 - Go to Virtual Machine 2 and try to ping Kermit again. The request should resolve for www.google.com, demonstrating how names or aliases such as Kermit can be mapped to a true domain name.
 </p>
 <br />
 

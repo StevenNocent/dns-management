@@ -3,7 +3,7 @@
 </p>
 
 <h1>DNS Management of A-Records, CNAME Records and Local DNS Cache</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+In this guide, we observe and create various DNS records and experiment a little with the local DNS cache within an Azure Virtual Machines. <br />
 
 
 <h2>Video Demonstration</h2>

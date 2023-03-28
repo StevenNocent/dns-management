@@ -8,7 +8,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: DNS Management of A-Records, CNMAE Records and Local DNS Cache](https://youtu.be/KF1kglVWND4)
+- ### [YouTube: DNS Management of A-Records, CNAME Records and Local DNS Cache](https://youtu.be/KF1kglVWND4)
 
 <h2>Environments and Technologies Used</h2>
 

@@ -26,10 +26,10 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Deploy virtual machine 2: Remote desktop connect into virtual machine 2 from the Active Directory tutorial, which is running Windows 10 Pro Version 21H2.
+- Ping two random host names: Open Command Prompt and attempt to ping the host names "Keyframe" and "Kermit". The ping requests will fail, as the hosts do not exist.
+- Create DNS records: Successfully ping both host names by navigating to the DNS Manager within Server Manager. Then, create a DNS A-Record for "Keyframe" and a CNAME record for "Kermit."
+- Flush DNS cache: Use the "ipconfig /flushdns" command to clear the contents of the local DNS cache. This cache stores information about recently resolved DNS queries, including the IP addresses of websites that have been visited.
 
 <h2>Actions and Observations</h2>
 <p align="left"> Prerequisite Lab Prior To This Lab: <a href="https://github.com/stevenmnocent/configure-ad"

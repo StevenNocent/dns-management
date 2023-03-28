@@ -32,8 +32,8 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 - Step 4
 
 <h2>Actions and Observations</h2>
-<p align="left"> Prerequisite Lab Prior To This Lab: <a href="https://github.com/stevennocent/configure-ad"
->Configuring On-premises Active Directory within Azure VMs</a></p>
+<p align="left"> Prerequisite Lab Prior To This Lab: <a href="https://github.com/stevenmnocent/configure-ad"
+>Configuring On-Premises Active Directory within Azure VMs</a></p>
 </p>
 <br />
 

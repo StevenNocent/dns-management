@@ -172,7 +172,7 @@ Step 13: Enter a name of your choice such as Kermit for the Alias name, and www.
 <img src="https://static.wixstatic.com/media/2ebf04_67b20cae657b403aa5800f7ec2a4804c~mv2.png" height="60%" width="60%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
-Step 14 - Go to Virtual Machine 2 and try to ping Kermit again. The request should resolve for www.google.com, demonstrating how names or aliases such as Kermit can be mapped to a true domain name.
+Step 14: Go to Virtual Machine 2 and try to ping Kermit again. The request should resolve for www.google.com, demonstrating how names or aliases such as Kermit can be mapped to a true domain name.
 </p>
 <br />
 

@@ -17,6 +17,7 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop Connection
 - Command Prompt
+- Windows Server Manager
 
 <h2>Operating Systems Used </h2>
 

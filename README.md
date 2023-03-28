@@ -9,6 +9,9 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 
 - ### [YouTube: DNS Management of A-Records, CNAME Records and Local DNS Cache](https://youtu.be/KF1kglVWND4)
 
+[![YouTube](https://static.wixstatic.com/media/2ebf04_597db4dd83f14d68b5be79644bccd4f9~mv2.png)](https://youtu.be/KF1kglVWND4)
+</p>
+
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)

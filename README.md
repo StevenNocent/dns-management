@@ -66,7 +66,7 @@ Step 3: Minimize VM2 and return to the Azure Portal to retrieve the IP address o
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_cf57d7591a484ae8be626d22470129ee~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
+<img src="https://static.wixstatic.com/media/2ebf04_cf57d7591a484ae8be626d22470129ee~mv2.png" height="60%" width="60%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
 Step 4: Return to virtual machine 2, launch the command prompt, and try to ping "keyframe".

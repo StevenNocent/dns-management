@@ -3,8 +3,7 @@
 </p>
 
 <h1>DNS Management of A-Records, CNAME Records and Local DNS Cache</h1>
-This tutorial demonstrates how to create Domain Name System (DNS) A and CNAME Records, as well as experiment with the local DNS cache within an Azure virtual machine (VM) that is running Active Directory.<br />
-
+This tutorial provides step-by-step instructions on how to create A and CNAME DNS Records, as well as experiment with the local DNS cache within an Azure virtual machine (VM) that is running Active Directory.<br />
 
 <h2>Video Demonstration</h2>
 

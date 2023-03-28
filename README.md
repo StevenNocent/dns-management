@@ -93,7 +93,7 @@ Step 6: In the DNS Manager, select the Domain Controller from the Forward lookup
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_cf1eb3a1ffeb42c5a2f8010da171cd98~mv2.png" height="60%" width="60%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
+<img src="https://static.wixstatic.com/media/2ebf04_cf1eb3a1ffeb42c5a2f8010da171cd98~mv2.png" height="40%" width="40%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
 Step 7: This is where the A-Records are stored. Right-click and select "New Host (A or AAAA)" to create a new A-Record.

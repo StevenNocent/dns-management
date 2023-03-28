@@ -15,15 +15,13 @@ This tutorial provides step-by-step instructions on how to create A and CNAME DN
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
-- Wireshark (Protocol Analyzer)
+- Remote Desktop Connection
+- Command Prompt
 
 <h2>Operating Systems Used </h2>
 
+- Windows Server 2022
 - Windows 10 (21H2)
-- Ubuntu Server 20.04
 
 <h2>High-Level Steps</h2>
 

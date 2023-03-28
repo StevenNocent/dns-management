@@ -102,7 +102,7 @@ Step 7: This is where the A-Records are stored. Right-click and select "New Host
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_fa7dd77e27a943fdb5eb91446d132de1~mv2.png" height="30%" width="30%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
+<img src="https://static.wixstatic.com/media/2ebf04_fa7dd77e27a943fdb5eb91446d132de1~mv2.png" height="35%" width="35%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
 Step 8: Type "keyframe" for the name and enter virtual machine 1's Private IP address as the IP address for keyframe. Click "Add Host" to create a new A-Record.
@@ -130,7 +130,7 @@ Step 9: Try pinging "keyframe" from Command Prompt in VM2. The request will be r
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_b1d26e273e3d44bfbc5e787f2b032641~mv2.png" height="30%" width="30%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
+<img src="https://static.wixstatic.com/media/2ebf04_b1d26e273e3d44bfbc5e787f2b032641~mv2.png" height="35%" width="35%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p align="center"> 
 <img src="https://static.wixstatic.com/media/2ebf04_af22ce2560734c94a64ddd9cd00f4cae~mv2.png" height="60%" width="60%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
@@ -160,7 +160,7 @@ Step 12: To create a CNAME record for "Kermit," return to the Domain Controller,
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_d61935406a854cedaa6cf4260f63c00f~mv2.png" height="30%" width="30%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
+<img src="https://static.wixstatic.com/media/2ebf04_d61935406a854cedaa6cf4260f63c00f~mv2.png" height="35%" width="35%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
 Step 13: Enter a name of your choice such as Kermit for the Alias name, and www.google.com for the Fully Qualified Domain Name (FQDN) for target host and click "OK" to create a CNAME record.

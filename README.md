@@ -102,7 +102,7 @@ Step 7: This is where the A-Records are stored. Right-click and select "New Host
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_fa7dd77e27a943fdb5eb91446d132de1~mv2.png" height="35%" width="35%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
+<img src="https://static.wixstatic.com/media/2ebf04_fa7dd77e27a943fdb5eb91446d132de1~mv2.png" height="30%" width="30%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
 Step 8: Type "keyframe" for the name and enter virtual machine 1's Private IP address as the IP address for keyframe. Click "Add Host" to create a new A-Record.

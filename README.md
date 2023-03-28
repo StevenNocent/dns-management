@@ -48,7 +48,7 @@ Step 1: Connect to Virtual Machine 2 running Windows 10 Pro, Version 21H2 from t
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_63ae497882d944d49830faae2f03aad9~mv2.png" height="80%" width="80%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
+<img src="https://static.wixstatic.com/media/2ebf04_63ae497882d944d49830faae2f03aad9~mv2.png" height="60%" width="60%" alt="DNS Management of A-Records, CNMAE Records and Local DNS Cache"/>
 </p>
 <p>
 Step 2: Log in using the admin user created from the Active Directory Lab.
